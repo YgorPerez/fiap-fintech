@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="flex min-h-[100dvh] items-center justify-center bg-gray-950 px-4 py-12"
+    >
+      <div class="w-full max-w-md md:max-w-xl xl:max-w-4xl space-y-8">
+        <div>
+          <h1
+            class="mt-6 text-center text-3xl md:text-6xl lg:text-7xl xs:text-4xl font-bold tracking-tight text-gray-50 drop-shadow-lg"
+          >
+            <img
+              src="../assets/images/wallet.svg"
+              alt=""
+              class="mr-2 size-6 md:size-20 inline-block"
+            />
+            Rastreador de Despesas
+          </h1>
+          <p
+            class="mt-3 md:mt-6 text-center md:text-3xl text-gray-400 drop-shadow"
+          >
+            Gerencie suas finanças com facilidade
+          </p>
+        </div>
+        <form
+          class="space-y-6 md:text-xl text-sm bg-gray-800 p-8 rounded-lg shadow-lg"
+        >
+          <div>
+            <label class="block font-medium text-gray-300" htmlFor="email">
+              Endereço de email
+            </label>
+            <div class="mt-1">
+              <input
+                autocomplete="email"
+                class="block w-full appearance-none rounded-md border border-gray-600 px-3 py-2 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 bg-gray-800 text-gray-300"
+                id="email"
+                name="email"
+                required
+                type="email"
+                placeholder="exemplo@email.com"
+              />
+            </div>
+          </div>
+          <div>
+            <label class="block font-medium text-gray-300" htmlFor="password">
+              Senha
+            </label>
+            <div class="mt-1">
+              <input
+                autocomplete="current-password"
+                class="block w-full appearance-none rounded-md border border-gray-600 px-3 py-2 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 bg-gray-800 text-gray-300"
+                id="password"
+                name="password"
+                required
+                type="password"
+                placeholder="********"
+              />
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <div />
+            <div>
+              <a
+                class="font-medium text-indigo-400 hover:text-indigo-300"
+                href="#"
+              >
+                <img
+                  src="../assets/images/file-question.svg"
+                  alt=""
+                  class="mr-2 size-4 inline-block"
+                />
+                Esqueceu sua senha?
+              </a>
+            </div>
+          </div>
+          <div>
+            <button
+              class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 font-medium text-gray-50 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              type="submit"
+            >
+              <img
+                src="../assets/images/log-in.svg"
+                alt=""
+                class="mr-2 size-5"
+              />
+              Entrar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
